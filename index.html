@@ -115,6 +115,18 @@
 nav{
   background-color: rgba(255, 255, 255, 0.342);
 }
+.srchbar{
+  width: auto;
+  height: auto;
+border: 1px solid grey;
+border-radius: 4px;
+color: grey;
+}
+srchbar:hover{
+ width: 200px;
+ letter-spacing:2px;
+}
+
 </style>
 <nav class="panel top">
   <div class="sections desktop">
@@ -130,12 +142,9 @@ nav{
         <li> -->
       </ul>
     </div>
-    <div class="right"><a class="button blue gradient" href="#">Home</a></div>
+    <div class="right"><input type="text" class="srchbar" placeholder="find your queries...." ></div>
   </div>
-  <div class="sections compact hidden">
-    <div class="left"><a href="#" title="Slides Framework"><svg style="width:82px;height:24px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
-    <div class="right"><span class="button actionButton sidebarTrigger" data-sidebar-id="1"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use></svg></span</div>
-  </div>
+
 </nav>
 
 
